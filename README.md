@@ -1,7 +1,6 @@
-# MY WEBSITE TO JOIN THE WEBRING
-
-[Click this link please](play.tetris.com)
-
+# HELLO WELCOME TO MY SITE
 <html>
-<b>BOLD<\b>
-<\html>
+MY WEBSITE TO JOIN THE WEBRING
+
+<a href="play.tetris.com">I love tetris</a>
+</html>
