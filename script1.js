@@ -5,7 +5,7 @@ center_img.addEventListener("mouseover", (event) => {
         test()
         var audio = new Audio('assets/orch-hit.mp3')
         audio.play()
-        console.log("mouse in");
+        console.log("BAM");
     }, false,
 );
 
