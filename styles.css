@@ -1,11 +1,26 @@
 body {
-  background-color: blue;
+  background-color: #F7F4EA;
   color: red;
+  align-items: center;
+
 }
+
+img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Impact';
+}
+
 p {
   color: red;
 }
-h1 {
-  color: green;
-  
+
+.pictures{
+  border-radius: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
