@@ -2,15 +2,30 @@ const center_img = document.getElementById("center-img");
 
 center_img.addEventListener("mouseover", (event) => {
         changeImg2gif("center-img");
+        test()
         // console.log("mouse in");
     }, false,
 );
 
 center_img.addEventListener("mouseleave", (event) => {
         changeImg2png("center-img");
+        test()
         // console.log("mouse out");
     }, false,
 );
+
+function test(){
+    let theme = document.getElementById('theme');
+    console.log(theme.getAttribute('href'))
+
+    if (theme.getAttribute('href') == "style1.css"){
+        theme.setAttribute('href', "style2.css") 
+    }
+    else{
+        theme.setAttribute('href','style1.css')
+    }
+    
+}
 
 function changeImg2gif(idname){
     var a = document.getElementById(idname).src;
