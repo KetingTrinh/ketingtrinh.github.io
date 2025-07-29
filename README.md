@@ -1,14 +1,7 @@
 # HELLO WELCOME TO MY SITE
 
 <html>
-<style>
-  body{
-    background-color : blue;
-  }
-  p{
-    color: red;
-  }
-</style>
+<link rel="stylesheet" href="ketingtrinh.github.io/styles.css">
   
 <p> MY WEBSITE TO JOIN THE WEBRING </p>
 <br>
