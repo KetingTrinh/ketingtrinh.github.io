@@ -16,7 +16,6 @@ center_img.addEventListener("mouseleave", (event) => {
 
 function test(){
     let theme = document.getElementById('theme');
-    console.log(theme.getAttribute('href'))
 
     if (theme.getAttribute('href') == "style1.css"){
         theme.setAttribute('href', "style2.css") 
