@@ -3,7 +3,9 @@ const center_img = document.getElementById("center-img");
 center_img.addEventListener("mouseover", (event) => {
         changeImg2gif("center-img");
         test()
-        // console.log("mouse in");
+        var audio = new Audio('assets/orch-hit.mp3')
+        audio.play()
+        console.log("mouse in");
     }, false,
 );
 
